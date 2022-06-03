@@ -1,1 +1,0 @@
-osource "C:/nrf_workspace/test1_5/zephyr/soc/$(ARCH)/*/Kconfig.soc"

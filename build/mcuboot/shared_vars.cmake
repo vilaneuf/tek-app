@@ -1,8 +1,0 @@
-set(mcuboot_KERNEL_HEX_NAME zephyr.hex)
-set(mcuboot_ZEPHYR_BINARY_DIR C:/nrf_workspace/test1_5/app/build/mcuboot/zephyr)
-set(mcuboot_KERNEL_ELF_NAME zephyr.elf)
-list(APPEND mcuboot_BUILD_BYPRODUCTS C:/nrf_workspace/test1_5/app/build/mcuboot/zephyr/zephyr.hex)
-list(APPEND mcuboot_BUILD_BYPRODUCTS C:/nrf_workspace/test1_5/app/build/mcuboot/zephyr/zephyr.elf)
-set(mcuboot_SIGNATURE_KEY_FILE root-rsa-2048.pem)
-list(APPEND mcuboot_PM_YML_DEP_FILES C:/nrf_workspace/test1_5/mcuboot/boot/zephyr/pm.yml)
-list(APPEND mcuboot_PM_YML_FILES C:/nrf_workspace/test1_5/app/build/mcuboot/zephyr/include/generated/pm.yml)

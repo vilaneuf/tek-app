@@ -1,3 +1,0 @@
-osource "C:/nrf_workspace/test1_5/nrf/boards/shields/*/Kconfig.defconfig"
-osource "C:/nrf_workspace/test1_5/zephyr/boards/shields/*/Kconfig.defconfig"
-osource "C:/nrf_workspace/test1_5/zephyr/boards/shields/*/Kconfig.defconfig"
