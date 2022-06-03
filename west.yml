@@ -1,0 +1,28 @@
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+    - name: mcuboot-tek
+      url-base: https://github.com/vilaneuf
+    - name: tek-lib
+      url-base: https://gitlab.tekniker.es/ele/Resources/sdk/nordic
+  projects:
+    - name: sdk-nrf
+      remote: ncs
+      path: nrf
+      revision: v1.5.1
+      import: true
+      clone-depth: 1
+      
+    - name: mcuboot
+      repo-path: sdk-mcuboot
+      remote: mcuboot-tek
+      revision: v1.7.99-ncs-branch
+      
+    - name: ncs-tek
+      repo-path: nrf_connect_sdk_tek
+      remote: tek-lib
+      revision: master_v1.5.1
+
+  self:
+    path: app

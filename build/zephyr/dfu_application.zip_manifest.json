@@ -1,0 +1,16 @@
+{
+    "format-version": 0,
+    "time": 1654255026,
+    "files": [
+        {
+            "size": 21360,
+            "file": "app_update.bin",
+            "modtime": 1654255025,
+            "load_address": 49664,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "nrf5340dk_nrf5340_cpuapp",
+            "soc": "nRF5340_CPUAPP_QKAA"
+        }
+    ]
+}
